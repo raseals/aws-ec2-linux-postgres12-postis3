@@ -1,11 +1,16 @@
 # How to install PostgreSQL 12 and PostGIS 3 on AWS Linux 2 EC2 instance
 Trying to install PostGIS libraries/binaries from the pre-built RedHat/CentOS yum repository
 is difficult on an AWS Linux 2 EC2 instance. Therefore, here are some instructions on
-how to build and install all required software necessary to install PostGIS 3 libraries
-on an AWS Linux 2 EC2 instance. Installing the latest PostGIS 3 libraries/binaries on an EC2 instance
+how to build and install all required software for PostGIS 3 libraries
+on an AWS Linux 2 EC2 instance. 
+
+Installing the latest PostGIS 3 libraries/binaries on an EC2 instance
 is necessary when your AWS RDS Postgres 12 instance is located behind a private subnet. Your public EC2 Linux
 instance needs the necessary PostgreSQL 12 server/client and PostGIS 3 libraries/binaries in order
 to access the private AWS RDS instance.
+
+These instructions could also be used to install Postgres 12 and PostGIS 3 geospatial database
+on a standalone AWS Linux 2 EC2 instance.
 
 At the time of this writing, PostgreSQL 12.2 and PostGIS 3.0.1 is the latest version.
 
