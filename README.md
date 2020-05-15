@@ -1,4 +1,4 @@
-# How to build PostgreSQL 12 with PostGIS 3 onto an AWS Linux 2 EC2 instance
+# How to install PostgreSQL 12 and PostGIS 3 on AWS Linux 2 EC2 instance
 Trying to install PostGIS libraries/binaries from the pre-built RedHat/CentOS yum repository
 is difficult on an AWS Linux 2 EC2 instance. Therefore, here are some instructions on
 how to build and install all required software necessary to install PostGIS 3 libraries
